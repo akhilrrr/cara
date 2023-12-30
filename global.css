@@ -1,0 +1,71 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+#tier-one-head{
+    ul{
+        display: inline-flex;
+        padding: var(--0, 0px);
+        align-items: center;
+        gap: 60px;
+        list-style-type: none;
+        li{
+            a{
+                color: #111;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: capitalize;
+                text-decoration: none;
+                &:hover{
+                    color: unset;
+                    background: linear-gradient(90deg, #004AFF 0%, #2B50AA 40.53%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }
+}
+#tier-two-head{
+    ul{
+        display: inline-flex;
+        padding: var(--0, 0px);
+        align-items: center;
+        list-style-type: none;
+        li{
+            a{
+                color: #111;
+                font-family: Merriweather;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: capitalize; 
+                &:hover{
+                    color: unset;
+                    background: linear-gradient(90deg, #004AFF 0%, #2B50AA 40.53%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            h1, h3{
+                color: #111;
+                font-family: Merriweather;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: capitalize; 
+                &:hover{
+                    color: unset;
+                    background: linear-gradient(90deg, #004AFF 0%, #2B50AA 40.53%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }
+
+}
